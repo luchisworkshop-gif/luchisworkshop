@@ -7,7 +7,7 @@ export default function Header() {
       {/* Logo con enlace a la home */}
       <Link href="/">
         <Image
-          src="/images/logo.png"
+          src="/images/logo.jpg"
           alt="Lulusworkshop"
           width={120}
           height={60}
