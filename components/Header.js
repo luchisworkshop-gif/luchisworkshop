@@ -1,9 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
   return (
     <header className="flex justify-between items-center p-4 border-b">
-      <h1 className="text-xl font-bold">Lulusworkshop</h1>
+      <Link href="/">
+        <Image src="/images/logo.png" alt="Lulusworkshop" width={120} height={60} />
+      </Link>
       <nav className="space-x-4">
         <Link href="/">Inicio</Link>
         <Link href="/catalogo">Catálogo</Link>
