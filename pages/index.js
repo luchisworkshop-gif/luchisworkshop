@@ -1,21 +1,28 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="text-center py-20">
-        <h1 className="text-3xl font-bold">Gemelos artesanales hechos a mano</h1>
-        <p className="mt-4 text-gray-600">
-          Bienvenido a Lulusworkshop — piezas únicas hechas con dedicación y materiales de calidad.
+      <main className="max-w-4xl mx-auto px-8 py-20">
+        <h1 className="text-3xl font-bold mb-6">Lulusworkshop</h1>
+        <p className="text-lg text-gray-700 mb-8">
+          Gemelos artesanales hechos a mano en Madrid. Piezas únicas creadas con
+          materiales de calidad y dedicación.
         </p>
-        <Link href="/catalogo">
-          <button className="mt-6 px-6 py-2 bg-black text-white rounded-lg">
-            Ver catálogo
-          </button>
-        </Link>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-2">Colección</h2>
+        <p className="text-gray-600 mb-6">
+          Descubre una selección de gemelos elegantes y originales. Próximamente
+          catálogo completo.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-2">Cómo pedir</h2>
+        <p className="text-gray-600">
+          Elige tu modelo favorito en el catálogo y contáctame por WhatsApp o
+          email para confirmar el pedido.
+        </p>
       </main>
       <Footer />
     </>
