@@ -1,13 +1,22 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 border-b">
+    <header className="flex justify-between items-center px-8 py-4 border-b">
+      {/* Logo con enlace a la home */}
       <Link href="/">
-        <Image src="/images/logo.JPG" alt="Lulusworkshop" width={120} height={60} />
+        <Image
+          src="/images/logo.png"
+          alt="Lulusworkshop"
+          width={120}
+          height={60}
+          className="cursor-pointer"
+        />
       </Link>
-      <nav className="space-x-4">
+
+      {/* Menú de navegación */}
+      <nav className="space-x-6 text-gray-700 font-medium">
         <Link href="/">Inicio</Link>
         <Link href="/catalogo">Catálogo</Link>
         <Link href="/contacto">Contacto</Link>
