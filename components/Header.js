@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-4 border-b">
       <Link href="/">
-        <Image src="/images/logo.png" alt="Lulusworkshop" width={120} height={60} />
+        <Image src="/images/logo.JPG" alt="Lulusworkshop" width={120} height={60} />
       </Link>
       <nav className="space-x-4">
         <Link href="/">Inicio</Link>
