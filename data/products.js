@@ -4,13 +4,13 @@ export const products = [
     name: "Gemelos Clásicos",
     price: "39 €",
     description: "Gemelos hechos a mano con materiales de calidad.",
-    images: ["/images/gemelos/gemelo1a.png", "/images/gemelos/gemelo1b.png"]
+    images: ["/images/gemelos/gemelos1a.png", "/images/gemelos/gemelos1b.png"]
   },
   {
     id: "GML-002",
     name: "Gemelos Modernos",
     price: "39 €",
     description: "Diseño minimalista y elegante.",
-    images: ["/images/gemelos/gemelo2a.png"]
+    images: ["/images/gemelos/gemelos2a.png"]
   }
 ];
